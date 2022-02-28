@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971198391843",
+    "project_id": "ganak-3e46e",
+    "storage_bucket": "ganak-3e46e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971198391843:android:943fb5f78d832aa897f396",
+        "android_client_info": {
+          "package_name": "com.example.lmcganak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971198391843-h48egtea9jci9hukb95gd743i33h2g0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA6FDi2-xgUP5OCtrcIC5MgnK_sLZR-Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971198391843-h48egtea9jci9hukb95gd743i33h2g0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
