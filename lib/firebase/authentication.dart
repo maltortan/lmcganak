@@ -15,16 +15,14 @@ class AuthenticationService{
   Future<String?> signIn({required String email, required String password}) async{
     try{
       await _firebaseAuth.signInWithEmailAndPassword(email: email, password: password);
-
     }on FirebaseAuthException catch(e){
-
       return e.message;
     }
     return "Success";
   }
+
   Future<String?> signUp({required name, required String email, required String password}) async{
     try {
-
       await   _firebaseAuth.createUserWithEmailAndPassword(
           email: email, password: password);
       userSetup(name);
@@ -33,7 +31,6 @@ class AuthenticationService{
     }
     return "Success";
   }
-
 }
 
 Future<void> userSetup(String name) async{
