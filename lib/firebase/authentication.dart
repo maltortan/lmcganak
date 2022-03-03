@@ -40,6 +40,6 @@ Future<void> userSetup(String name) async{
   print(uid);
   print(name);
   print('user setup');
-  userRef.add({'displayName':name, 'uid': uid});
+  userRef.doc(uid).set({'displayName':name, 'uid': uid});
   return;
 }
